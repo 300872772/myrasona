@@ -1,0 +1,186 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="stylesheet" href="Styles/StyleSheet1.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 220px;
+            height: 152px;
+        }
+        .auto-style2
+        {
+            color: #FFFFFF;
+        }
+    </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+            
+
+    <div id="wrapper">
+
+    <div id="banner">
+        <asp:Label ID="Label1" runat="server" ForeColor="White" Text="Label"></asp:Label>
+        <asp:Image ID="Image1" padding="122px" runat="server" ImageUrl="~/Img/Rashona/R_Logo2.png" 
+            Width="37%" Height="174px" CssClass="image1" />
+        <span style="font-size:11.0pt;line-height:115%;
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t144" coordsize="21600,21600" o:spt="144" adj="11796480" path="al10800,10800,10800,10800@2@14e">
+ <v:formulas>
+  <v:f eqn="val #1" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="val #0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum 0 0 #0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sumangle #0 0 180" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sumangle #0 0 90" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="prod @4 2 1" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sumangle #0 90 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="prod @6 2 1" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="abs #0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sumangle @8 0 90" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="if @9 @7 @5" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sumangle @10 0 360" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="if @10 @11 @10" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sumangle @12 0 360" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="if @12 @13 @12" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum 0 0 @14" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="val 10800" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="cos 10800 #0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sin 10800 #0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum @17 10800 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum @18 10800 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum 10800 0 @17" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="if @9 0 21600" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum 10800 0 @18" xmlns:v="urn:schemas-microsoft-com:vml"/>
+ </v:formulas>
+ <v:path textpathok="t" o:connecttype="custom" o:connectlocs="10800,@22;@19,@20;@21,@20" xmlns:v="urn:schemas-microsoft-com:vml"/>
+ <v:textpath on="t" style='v-text-kern:t' fitpath="t" xmlns:v="urn:schemas-microsoft-com:vml"/>
+ <v:handles>
+  <v:h position="@16,#0" polar="10800,10800" xmlns:v="urn:schemas-microsoft-com:vml"/>
+ </v:handles>
+ <o:lock v:ext="edit" text="t" shapetype="t" xmlns:o="urn:schemas-microsoft-com:office:office"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t144" style='width:227.25pt;
+ height:26.25pt' fillcolor="black">
+ <v:shadow color="#868686" xmlns:v="urn:schemas-microsoft-com:vml"/>
+ <v:textpath style='font-family:"Arial Black"' fitshape="t" trim="t" string="Grand Openning&#13;&#10;21st February" xmlns:v="urn:schemas-microsoft-com:vml"/>
+</v:shape><![endif]--><![if !vml]><![endif]></span><span class="auto-style2">.............................................................................</span><img class="auto-style1" src="Img/Rashona/RasonaOpening1.jpg" /></div>  
+        
+    <div id="nevigation">
+        <ul  id="nav">
+        <li>
+       
+    
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Index.aspx">Home</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/Flyer.aspx">Flyer</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Pages/Gallary.aspx">Gallary</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Pages/Up_Coming.aspx">Up-Coming</asp:HyperLink></li>
+               <li><asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/Index.aspx">Webshop</asp:HyperLink></li>
+               <li><asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/Pages/Career.aspx">Career</asp:HyperLink></li> 
+                <li><asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/Pages/About.aspx">About Us</asp:HyperLink></li> 
+
+
+
+         <li style="float: right">
+             <asp:HyperLink ID="lnkLogin" runat="server" NavigateUrl="~/Pages/Account/Login.aspx">Log In</asp:HyperLink>
+            <asp:LinkButton ID="lnkLogOut" runat="server" OnClick="lnkLogOut_Click">Log Out</asp:LinkButton>
+
+        </li>
+        
+            <li style="float: right">
+                <asp:HyperLink ID="lnkRegister" runat="server" NavigateUrl="~/Pages/Account/Register.aspx">Register</asp:HyperLink>
+                <asp:HyperLink ID="litStatus" runat="server" NavigateUrl="~/Pages/ShoppingCart.aspx"></asp:HyperLink>
+            </li>
+           
+
+        </ul>
+    </div>
+
+        
+    
+    
+<table border-collapse:"separate"; border-top: "3px solid grey";align="top" >
+            <tr style="border:groove;border-color:gray;border-radius: 5px" >
+                  
+                <td height:100%; width:220px; align="top"; style="vertical-align:top"; rowspan="10">
+                   
+
+
+<asp:Panel ID="pnlTree" runat="server" style="height:100%; width:200px;">
+   
+
+    <div id="menu">
+        <ul>
+        <li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Index.aspx">Shopping Centre</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Pages/Businesses/Restaurant.aspx">Restaurant</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Pages/Businesses/CommunityStore.aspx">Community Stores</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Pages/Businesses/Wholesale.aspx">Wholesale</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/Pages/Businesses/Delivery.aspx">Delivery</asp:HyperLink></li>
+   
+
+        </ul>
+    </div>
+
+                    
+                   
+<div id="tree1">
+    <ul>
+           <li> <asp:TreeView ID="TreeView1" runat="server" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged" ImageSet="Arrows" CssClass="prductName" ForeColor="#993366">
+                 <Nodes>
+                     <asp:TreeNode Text="MANAGEMENT" Value="Newwww Node">
+                     <asp:TreeNode Text="NOTICE BOARD" Value="Local Node">
+                         <asp:TreeNode Text="Meeting Date" Value="On Site Node" runat="server" NavigateUrl="~/Pages/Management/Meeting_date.aspx"></asp:TreeNode>
+                         <asp:TreeNode Text="Decisions" Value="Takeway Node" runat="server" NavigateUrl="~/Pages/Management/Decisions.aspx"></asp:TreeNode>
+                         <asp:TreeNode Text="Others" Value="Takeway Node" runat="server" NavigateUrl="~/Pages/Management/Others.aspx"></asp:TreeNode>
+                     </asp:TreeNode>
+                     <asp:TreeNode Text="REPORT" Value="Grocary Node">
+                         <asp:TreeNode Text="Sales Report" Value="On Site Node" runat="server" NavigateUrl="~/Pages/Management/Report.aspx"></asp:TreeNode>
+                         
+                     </asp:TreeNode>
+                        <asp:TreeNode Text="Manage Product" Value="Grocary Node">
+                         <asp:TreeNode Text="Product Upload" Value="On Site Node" runat="server" NavigateUrl="~/Pages/Management/Management.aspx"></asp:TreeNode>
+                         
+                     </asp:TreeNode>
+                    </asp:TreeNode>
+                 </Nodes>
+             </asp:TreeView></li>
+        </ul>
+    </div>
+         </asp:Panel>
+                </td>
+                <td rowspan="6" style="height:100%; width:5px;">
+                   </td>
+
+                <td rowspan="6" style="height:100%; width:100%;"><div>
+    <div id="content" >
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
+           <div style="width: 100%">     
+      
+           </div>
+       </asp:ContentPlaceHolder>
+    </div>
+
+     </div></td></tr>
+        </table> 
+            
+    
+
+
+
+
+
+
+    </div>
+    </form>
+</body>
+</html>
